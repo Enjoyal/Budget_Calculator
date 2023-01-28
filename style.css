@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Orbitron:wght@400;500&family=Rubik+Microbe&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Neonderthaw&family=Notable&family=Pacifico&family=Permanent+Marker&family=Pinyon+Script&family=Poppins:wght@300&family=Rubik+Beastly&family=Rubik+Bubbles&family=Sevillana&family=Titan+One&family=Ubuntu&family=Wallpoet&display=swap');
+body{
+    overflow-x: hidden;
+    padding-bottom: 80px;
+}
+header{
+    padding-top: 5px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    
+}
+
+#heading{
+    /* font-family: 'Rubik Microbe', cursive; */
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 20px;
+
+}
+.row-cols-2{
+    padding-top: 100px;
+}
+
+.expense,.user-info, .balance{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+.expense:hover,.user-info:hover, .balance:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+/* .col-4{
+    min-width: 500px;
+} */
+
+.expense{
+    width:900px;
+}
+
+
+
+
+
+@media(max-width:600px) {
+    body{
+        align-items: center;
+        padding-right: 300px;
+        padding-bottom: 80px;
+    }
+    .row-cols-2{
+        padding-top: 80px;
+    }
+    
+    .expense{
+        width: 400px;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    .user-info{
+        margin-top: 0px;
+    }
+    
+}
